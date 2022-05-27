@@ -61,7 +61,9 @@
   display: flex;
 }
 
-button {
+.delete,
+.edit,
+.add {
   background: none;
   border: 0px;
   color: #888;
@@ -71,7 +73,8 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.edit:hover,
+.add:hover {
   color: #3a3a3a;
 }
 
@@ -148,13 +151,13 @@ button:hover {
   width: 226px;
 }
 
-button.delete img {
+.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.delete img:hover {
   transform: rotateZ(0);
 }
 
