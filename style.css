@@ -172,11 +172,11 @@
   display: none;
 }
 
-.task.edit-mode .task__input {
+.task.task_edit-mode .task__input {
   display: inline-block;
   width: 224px;
 }
 
-.task.edit-mode .task__text {
+.task.task_edit-mode .task__text {
   display: none;
 }
