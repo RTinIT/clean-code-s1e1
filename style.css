@@ -138,7 +138,7 @@
   margin: 0 10px;
 }
 
-.task-list__text {
+.task__text {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -162,7 +162,7 @@
 }
 
 /* Completed */
-#completed-tasks .task-list__text {
+#completed-tasks .task__text {
   text-decoration: line-through;
   color: #888;
 }
@@ -177,6 +177,6 @@
   width: 224px;
 }
 
-.task.edit-mode .task-list__text {
+.task.edit-mode .task__text {
   display: none;
 }
