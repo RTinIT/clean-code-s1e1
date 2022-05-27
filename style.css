@@ -131,7 +131,7 @@ button:hover {
   vertical-align: middle;
 }
 
-.note > input[type="checkbox"] {
+.note > .checkbox {
   margin: 0 10px;
 }
 
