@@ -41,7 +41,7 @@
   margin: 0 auto 0;
 }
 
-.task {
+.task__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -89,7 +89,7 @@
   text-transform: uppercase;
 }
 
-.task:focus {
+.task__input:focus {
   color: #333;
 }
 
@@ -147,7 +147,7 @@
   flex-grow: 1;
 }
 
-.task {
+.task__input {
   width: 226px;
 }
 
@@ -168,11 +168,11 @@
 }
 
 /* Edit Task */
-.task {
+.task__input {
   display: none;
 }
 
-.note.edit-mode .task {
+.note.edit-mode .task__input {
   display: inline-block;
   width: 224px;
 }
