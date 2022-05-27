@@ -61,7 +61,7 @@
   display: flex;
 }
 
-.section__delete-btn,
+.task__delete-btn,
 .task__edit-btn,
 .section__add-btn {
   background: none;
@@ -151,13 +151,13 @@
   width: 226px;
 }
 
-.section__delete-btn .remove-img {
+.task__delete-btn .remove-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.section__delete-btn .remove-img:hover {
+.task__delete-btn .remove-img:hover {
   transform: rotateZ(0);
 }
 
