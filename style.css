@@ -138,11 +138,13 @@ li > input[type="checkbox"] {
   margin: 0 10px;
 }
 
-li > label {
+li > .task-list__text {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+  display: inline-block;
+  flex-grow: 1;
 }
 
 li >    input[type="text"] {
@@ -160,7 +162,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed-tasks .task-list__text {
   text-decoration: line-through;
   color: #888;
 }
@@ -175,6 +177,6 @@ ul li.edit-mode input[type=text] {
   width: 224px;
 }
 
-ul li.edit-mode label {
+ul li.edit-mode .task-list__text {
   display: none;
 }
