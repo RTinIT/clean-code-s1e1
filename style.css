@@ -121,7 +121,7 @@
 }
 
 /* Task list */
-.note {
+.task {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -130,11 +130,11 @@
   align-items: center;
 }
 
-.note > * {
+.task > * {
   vertical-align: middle;
 }
 
-.note > .checkbox {
+.task > .checkbox {
   margin: 0 10px;
 }
 
@@ -172,11 +172,11 @@
   display: none;
 }
 
-.note.edit-mode .task__input {
+.task.edit-mode .task__input {
   display: inline-block;
   width: 224px;
 }
 
-.note.edit-mode .task-list__text {
+.task.edit-mode .task-list__text {
   display: none;
 }
