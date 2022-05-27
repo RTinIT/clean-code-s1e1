@@ -100,6 +100,9 @@ input[type="text"]:focus {
 }
 
 #new-task {
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1;
   width: 318px;
   margin: 0;
   font-size: 18px;
