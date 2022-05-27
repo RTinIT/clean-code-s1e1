@@ -151,13 +151,13 @@
   width: 226px;
 }
 
-.task__delete-btn .remove-img {
+.task__delete-btn .task__remove-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.task__delete-btn .remove-img:hover {
+.task__delete-btn .task__remove-img:hover {
   transform: rotateZ(0);
 }
 
