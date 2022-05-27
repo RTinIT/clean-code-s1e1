@@ -151,13 +151,13 @@
   width: 226px;
 }
 
-.delete img {
+.delete .remove-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete img:hover {
+.delete .remove-img:hover {
   transform: rotateZ(0);
 }
 
